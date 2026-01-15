@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AppForge App</title>
+    <style>
+        body { font-family: sans-serif; background: #1e1e1e; color: #fff; padding: 20px; }
+        #output { background: #000; padding: 10px; border-radius: 5px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>AppForge Generated App</h1>
+    <div id="app"></div>
+    <script>
+        // Injected AI Script
+        try {
+            echo "Initializing build..."
+echo "Compiling assets..."
+sleep 2
+echo "Build successful!"
+        } catch (e) {
+            document.body.innerHTML += '<div style="color:red">Runtime Error: ' + e.message + '</div>';
+        }
+    </script>
+</body>
+</html>
